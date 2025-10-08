@@ -6,15 +6,15 @@ import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
     return (
-  <div className='bg-[#001931] text-white'>
+  <div className='bg-[#001931] text-white '>
     <Container>
   
-<footer className="footer sm:footer-horizontal   ">
+<footer className="footer sm:footer-horizontal   py-4 md:py-6 lg:py-10 ">
   <aside className='w-[350px]'>
     
    <Link to='/' className="flex items-center space-x-2">
                <img className='w-10 h-10' src={logoImg} alt="nav-logo" />
-               <span className='text-white font-bold text-xl'>Hero.AppBari</span>
+               <span className='text-white font-bold text-xl'>HERO.AppBari</span>
            </Link>
            <p>Hero.AppBari is a productivity-focused web platform that consolidates various apps and tools,  offering a seamless, responsive, and intuitive experience to enhance efficiency across devices.</p>
   </aside>
@@ -50,8 +50,8 @@ const Footer = () => {
 </footer>
 
 
-<div className=' border-t border-t-[#d9d9d96e]  mt-5'>
-  <p className='text-center text-white   mt-5'>Copyright © 2025 - All right reserved</p>
+<div className=' border-t border-t-[#d9d9d92e] py-5 '>
+  <p className='text-center text-white '>Copyright © 2025 - All right reserved</p>
 
 </div>
     </Container>  
