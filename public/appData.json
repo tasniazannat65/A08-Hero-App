@@ -181,7 +181,7 @@
   },
   {
     "id": 11,
-    "image": "/images/snapchat.png",
+    "image": "https://i.ibb.co.com/VpxsSWc5/snapchat.jpg",
     "title": "Snapchat",
     "companyName": "Snap Inc.",
     "description": "Snapchat is a unique multimedia messaging platform that focuses on real-time communication through disappearing photos and videos. It encourages spontaneous, fun interactions with friends using creative AR lenses, filters, and Bitmojis. Users can share daily moments via Stories, explore trending content through Spotlight, and discover events or locations on Snap Map. With a focus on creativity and privacy, Snapchat has become especially popular among younger audiences, offering an interactive way to express yourself and stay connected with close circles.",
@@ -199,7 +199,7 @@
   },
   {
     "id": 12,
-    "image": "/images/telegram.png",
+    "image": "https://i.ibb.co.com/nsQpNw86/taligram.jpg",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "description": "Telegram is a powerful, privacy-focused messaging app known for its speed and versatility. It allows users to send messages, media, and files up to 2GB instantly while supporting massive group chats and public channels with millions of members. Telegram features bots for automation, secret chats with end-to-end encryption, and a cloud-based system that keeps your data synced across all devices. Its clean interface, security-focused design, and frequent feature updates have made Telegram a favorite for both personal and community-based communication worldwide.",
@@ -217,7 +217,7 @@
   },
   {
     "id": 13,
-    "image": "/images/pinterest.png",
+    "image": "https://i.ibb.co.com/yzJY8y6/pinterest.jpg",
     "title": "Pinterest",
     "companyName": "Pinterest, Inc.",
     "description": "Pinterest is a visual discovery and inspiration platform where millions of users explore and organize ideas for every aspect of life — from recipes and fashion to travel and home decor. By saving 'Pins' to themed boards, users can plan projects, get inspired, and follow creators with similar interests. Pinterest’s smart recommendation engine delivers personalized ideas, making it a go-to tool for creativity, lifestyle planning, and inspiration for both individuals and businesses looking to share their products visually.",
@@ -235,7 +235,7 @@
   },
   {
     "id": 14,
-    "image": "/images/reddit.png",
+    "image": "https://i.ibb.co.com/QjmLFmTk/raddit1.jpg",
     "title": "Reddit",
     "companyName": "Reddit Inc.",
     "description": "Reddit is a vast online community platform where millions of users share, discuss, and vote on content across thousands of interest-based communities called subreddits. It’s a place to explore diverse perspectives, from breaking news and deep discussions to humor, memes, and niche hobbies. Reddit’s upvote system surfaces the best contributions, while comment threads create meaningful conversations. Whether you're seeking information, entertainment, or community engagement, Reddit connects people worldwide around shared passions and knowledge.",
@@ -253,7 +253,7 @@
   },
   {
     "id": 15,
-    "image": "/images/airbnb.png",
+    "image": "https://i.ibb.co.com/V0pQwJXq/arbnb.png",
     "title": "Airbnb",
     "companyName": "Airbnb, Inc.",
     "description": "Airbnb is a global platform that connects travelers with hosts offering unique stays — from cozy apartments to luxury villas and treehouses. It provides flexible search options, verified reviews, secure payment methods, and 24/7 support to make booking easy and safe. Guests can explore local experiences, while hosts can earn income by sharing their space. Airbnb has transformed travel by enabling authentic, affordable, and memorable stays in over 190 countries worldwide.",
@@ -271,7 +271,7 @@
   },
   {
     "id": 16,
-    "image": "/images/ubereats.png",
+    "image": "https://i.ibb.co.com/DPmnfhDy/uber-eats.webp",
     "title": "Uber Eats",
     "companyName": "Uber Technologies, Inc.",
     "description": "Uber Eats is a leading food delivery platform that connects users to their favorite restaurants and local eateries with just a few taps. It offers real-time order tracking, a wide variety of cuisines, and multiple payment options for a seamless ordering experience. Users can schedule deliveries, customize meals, and enjoy contactless delivery options. Whether you're craving fast food or fine dining, Uber Eats brings delicious meals directly to your doorstep, making food delivery quick, reliable, and convenient.",
@@ -289,7 +289,7 @@
   },
   {
     "id": 17,
-    "image": "/images/duolingo.png",
+    "image": "https://i.ibb.co.com/N6zbqZPP/Duolingo.jpg",
     "title": "Duolingo",
     "companyName": "Duolingo, Inc.",
     "description": "Duolingo is a fun, engaging, and gamified language-learning app that helps millions of users master new languages at their own pace. Offering over 30 languages, it uses interactive lessons, daily streaks, leaderboards, and personalized exercises to make learning effective and enjoyable. With short lessons designed to fit into busy schedules, Duolingo builds vocabulary, grammar, and pronunciation skills for beginners and advanced learners alike. Its friendly interface and progress-tracking system keep users motivated every day.",
@@ -307,7 +307,7 @@
   },
   {
     "id": 18,
-    "image": "/images/paypal.png",
+    "image": "https://i.ibb.co.com/LXsVS3MX/paypal.jpg",
     "title": "PayPal",
     "companyName": "PayPal Holdings, Inc.",
     "description": "PayPal is a globally trusted digital payment platform that enables secure money transfers, online purchases, and business transactions. With advanced encryption, buyer protection, and quick checkout options, PayPal simplifies financial interactions for both individuals and businesses. Users can link bank accounts or cards, send money internationally, and track transactions with ease. Its wide acceptance across merchants makes it one of the most reliable ways to pay and get paid online.",
@@ -325,7 +325,7 @@
   },
   {
     "id": 19,
-    "image": "/images/amazon.png",
+    "image": "https://i.ibb.co.com/VWv0hNzr/amazon.jpg",
     "title": "Amazon Shopping",
     "companyName": "Amazon Mobile LLC",
     "description": "Amazon Shopping offers a complete online retail experience, giving users access to millions of products from electronics and clothing to groceries and daily essentials. With powerful search tools, personalized recommendations, and fast delivery options like Prime, shopping is faster and easier than ever. The app includes order tracking, secure payments, one-click buying, and 24/7 customer support, making it a trusted platform for convenient shopping worldwide.",
@@ -343,7 +343,7 @@
   },
   {
     "id": 20,
-    "image": "/images/googlemaps.png",
+    "image": "https://i.ibb.co.com/YBcR756M/google-map.png",
     "title": "Google Maps",
     "companyName": "Google LLC",
     "description": "Google Maps is a comprehensive navigation and location service that helps millions of people explore the world. With real-time GPS navigation, traffic updates, public transit information, and offline maps, it makes traveling easier and more reliable. Users can find nearby businesses, restaurants, and landmarks with detailed reviews and photos. Whether you’re walking, driving, or biking, Google Maps provides accurate routes and smart suggestions, making it an essential tool for everyday navigation and global exploration.",

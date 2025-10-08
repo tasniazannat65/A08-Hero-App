@@ -7,7 +7,7 @@ const AppsCard = ({app}) => {
     return (
         <div className='bg-white rounded-lg p-4 shadow-sm space-y-3 hover:scale-105 transition ease-in-out'>
             
-                <img className='w-full h-[316px] object-cover rounded-md' src={app.image} alt="" />
+                <img className='w-full h-[316px] object-cover rounded-md' src={app.image} alt="apps-image" />
             
             <h3 className='font-medium text-xl text-[#001931]'>{app.title}</h3>
             <div className='flex justify-between items-center'>

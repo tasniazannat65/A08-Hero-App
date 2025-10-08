@@ -18,11 +18,11 @@ const Banner = () => {
                    <span className='bg-linear-to-r from-[#632EE3] to-[#9F62F2]  bg-clip-text text-transparent'>Productive</span> Apps</h1>
                    <p className='text-[#627382] text-sm md:text-lg lg:text-xl'>At HERO.AppBari, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                    <div className='space-x-3'>
-                    <a href='https://play.google.com/store/games?hl=en' target='blank' className='btn bg-white font-semibold text-sm md:text-lg lg:text-xl text-[#001931] px-4 py-3 lg:px-6 lg:py-4 rounded-sm shadow-sm'>
+                    <a href='https://play.google.com/store/games?hl=en' target='blank' className='btn bg-white font-semibold text-sm md:text-lg lg:text-xl text-[#001931] px-4 py-3 lg:px-6 lg:py-4 rounded-sm shadow-sm hover:bg-gray-200'>
                         <img className='w-6 h-6' src={googlePlay} alt="google-play-store" />
                         
                         Google Play</a>
-                   <a href='https://www.apple.com/app-store/' target='blank' className='btn bg-white font-semibold text-sm md:text-lg lg:text-xl text-[#001931] px-4 py-3 lg:px-6 lg:py-4 rounded-sm shadow-sm'>
+                   <a href='https://www.apple.com/app-store/' target='blank' className='btn bg-white font-semibold text-sm md:text-lg lg:text-xl text-[#001931] px-4 py-3 lg:px-6 lg:py-4 rounded-sm shadow-sm hover:bg-gray-200'>
                     <img className='w-6 h-6' src={appStore} alt="app-store" />
                     App Store</a>
                    </div>

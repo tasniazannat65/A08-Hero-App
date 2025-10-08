@@ -3,12 +3,15 @@ import MainLayout from "../Layouts/MainLayout";
 import Home from "../Pages/Home";
 import Apps from "../Pages/Apps";
 import Installation from "../Pages/Installation";
+import PageError from "../ErrorHandle/PageError";
+
 
 
 export const router = createBrowserRouter([
     {
         path: '/',
         Component: MainLayout,
+        errorElement: <PageError></PageError>,
         children: [
             {
                 index: true,
@@ -16,12 +19,14 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/apps',
-                Component: Apps
+                Component: Apps,
+              
             },
             {
                 path: '/installation',
                 Component: Installation
-            }
+            },
+           
         ]
     }
 ])

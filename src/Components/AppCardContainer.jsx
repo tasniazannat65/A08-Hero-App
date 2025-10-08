@@ -15,7 +15,7 @@ const AppCardContainer = ({featuredApps}) => {
             }
         </div>
         <div className='text-center py-10'>
-        <Link to='/apps' className='btn font-semibold text-lg text-white p-6 shadow-sm rounded-sm bg-linear-to-r from-[#632EE3] to-[#9F62F2]'>Show All</Link>
+        <Link to='/apps' className='btn font-semibold text-lg text-white px-20 py-6 shadow-sm rounded-sm bg-linear-to-r from-[#632EE3] to-[#9F62F2]'>Show All</Link>
 
         </div>
         </div>
