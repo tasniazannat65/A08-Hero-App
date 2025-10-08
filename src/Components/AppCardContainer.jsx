@@ -7,7 +7,7 @@ const AppCardContainer = ({featuredApps}) => {
     return (
        <Container>
         <div className='pt-4 md:pt-6 lg:pt-10'>
-            <h2 className='text-5xl font-bold text-[#001931] pb-5 text-center'>Trending Apps</h2>
+            <h2 className='text-3xl md:text-4xl lg:text-5xl font-bold text-[#001931] pb-5 text-center'>Trending Apps</h2>
             <p className='text-[#627382] text-xl text-center pb-10'>Explore All Trending Apps on the Market developed by us</p>
              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
             {
