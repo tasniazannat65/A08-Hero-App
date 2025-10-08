@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/Kpybgrzc/spotify.jpg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "description": "Spotify is a world-leading digital music service that gives you instant access to millions of tracks, podcasts, and audiobooks from creators all around the globe. Whether you’re in the mood for chart-topping hits, indie tracks, or personalized mixes, Spotify’s intelligent recommendation system curates content based on your listening habits. You can build and share playlists, follow your favorite artists, and enjoy a seamless experience across mobile, desktop, and smart devices. With offline mode, cross-device syncing, and collaborative playlists, Spotify makes discovering and enjoying music easier than ever.",
+    "size": 65,
+    "reviews": 45000000,
+    "ratingAvg": 4.4,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 23000000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/wNJqv9gt/instagram.jpg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Instagram is one of the most popular social media platforms for sharing photos, videos, and stories. It’s a place where creativity meets community, allowing users to express themselves through engaging visuals, Reels, and live broadcasts. The app’s Explore tab helps you discover trending content and new creators, while direct messaging keeps you connected to friends and followers. From influencers and brands to everyday users, Instagram has become a hub for culture, lifestyle, and real-time conversations — all within a sleek, intuitive interface that adapts to your interests.",
+    "size": 80,
+    "reviews": 140000000,
+    "ratingAvg": 4.0,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 10000000 },
+      { "name": "2 star", "count": 12000000 },
+      { "name": "3 star", "count": 18000000 },
+      { "name": "4 star", "count": 40000000 },
+      { "name": "5 star", "count": 60000000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/MxqLXfzN/whatsapp.jpg",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "WhatsApp Messenger is a secure, reliable, and easy-to-use messaging platform trusted by billions worldwide. It offers free text messaging, voice calls, and HD video calls with end-to-end encryption to ensure your privacy is always protected. You can share images, videos, documents, contacts, and your live location in real time. With group chats, community features, and the ability to sync seamlessly across devices, WhatsApp keeps personal and professional conversations organized and accessible anytime, anywhere.",
+    "size": 35,
+    "reviews": 180000000,
+    "ratingAvg": 4.3,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 9000000 },
+      { "name": "2 star", "count": 11000000 },
+      { "name": "3 star", "count": 20000000 },
+      { "name": "4 star", "count": 50000000 },
+      { "name": "5 star", "count": 90000000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/Mz8pqs9/youtube.jpg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "YouTube is the world’s largest video-sharing platform where billions of users watch, create, and engage with content every day. From music videos and tutorials to live streams and documentaries, YouTube provides a massive library of videos tailored to your interests through its smart recommendation system. You can subscribe to channels, interact via comments, download videos for offline viewing, and cast to larger screens with ease. Whether you're learning something new or enjoying entertainment, YouTube delivers high-quality streaming across every device.",
+    "size": 95,
+    "reviews": 160000000,
+    "ratingAvg": 4.1,
+    "downloads": "10B",
+    "ratings": [
+      { "name": "1 star", "count": 8000000 },
+      { "name": "2 star", "count": 9000000 },
+      { "name": "3 star", "count": 16000000 },
+      { "name": "4 star", "count": 50000000 },
+      { "name": "5 star", "count": 77000000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/60VjYcjq/tiktok.jpg",
+    "title": "TikTok",
+    "companyName": "Bytedance Pte. Ltd.",
+    "description": "TikTok is a vibrant short-form video platform that has transformed the way people create and consume content. It empowers users to produce engaging videos using built-in editing tools, filters, and effects, and then share them with a global community. The app’s advanced algorithm curates a personalized feed that keeps you entertained with fresh and trending content every time you open it. From viral challenges and dance trends to informative mini-tutorials, TikTok offers endless creative possibilities for individuals and brands alike.",
+    "size": 85,
+    "reviews": 70000000,
+    "ratingAvg": 4.4,
+    "downloads": "3B",
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 31000000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/W4NmTvgG/facebook.jpg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Facebook is a global social networking platform that connects billions of people, communities, and businesses. It enables users to share photos, videos, status updates, and join interest-based groups. With features like Marketplace, Watch, and Reels, Facebook goes beyond communication, creating opportunities for commerce, entertainment, and community building. Its robust privacy settings, event management tools, and extensive integrations make it a central digital space for both personal and professional interactions.",
+    "size": 75,
+    "reviews": 120000000,
+    "ratingAvg": 4.0,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 10000000 },
+      { "name": "2 star", "count": 12000000 },
+      { "name": "3 star", "count": 18000000 },
+      { "name": "4 star", "count": 40000000 },
+      { "name": "5 star", "count": 40000000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/845RQMY6/linkedin.jpg",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "description": "LinkedIn is the world’s largest professional networking platform that helps individuals build careers and organizations find talent. Users can create professional profiles, connect with colleagues and industry leaders, apply for jobs, and showcase their skills through posts and articles. With learning resources, groups, and event tools, LinkedIn has become essential for career development, personal branding, and business growth across industries worldwide.",
+    "size": 70,
+    "reviews": 9500000,
+    "ratingAvg": 4.2,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 3800000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/tTJFWYNW/zoom.jpg",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications, Inc.",
+    "description": "Zoom is a powerful video conferencing platform designed for modern communication. It offers HD audio and video, screen sharing, breakout rooms, and recording features to make virtual meetings feel seamless. Whether for business, education, or personal use, Zoom provides a stable and user-friendly environment for connecting with people globally. Its integration with calendars and productivity tools enhances workflow and keeps teams in sync.",
+    "size": 45,
+    "reviews": 8600000,
+    "ratingAvg": 4.3,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 4200000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/NnW0dZrr/netflix1.jpg",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "description": "Netflix is a global leader in entertainment, offering a vast library of movies, TV series, documentaries, and original productions across multiple genres and languages. Its personalized recommendation engine helps you discover new favorites while features like offline viewing, multiple profiles, and cross-device syncing ensure a smooth streaming experience. Netflix continues to push boundaries with award-winning original content, making it a go-to platform for high-quality entertainment anytime, anywhere.",
+    "size": 90,
+    "reviews": 9800000,
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 5200000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/cK4c7XG4/x-twitter.jpg",
+    "title": "X (Twitter)",
+    "companyName": "X Corp.",
+    "description": "X, formerly known as Twitter, is a dynamic platform for real-time communication and news sharing. Users can express thoughts through short posts, follow trending topics, join live conversations through Spaces, and build communities around shared interests. With powerful discovery features and global reach, X remains a leading platform for journalists, creators, and everyday users to shape public conversations in real time.",
+    "size": 55,
+    "reviews": 8700000,
+    "ratingAvg": 4.0,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 2700000 },
+      { "name": "5 star", "count": 3000000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "/images/snapchat.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "description": "Snapchat is a unique multimedia messaging platform that focuses on real-time communication through disappearing photos and videos. It encourages spontaneous, fun interactions with friends using creative AR lenses, filters, and Bitmojis. Users can share daily moments via Stories, explore trending content through Spotlight, and discover events or locations on Snap Map. With a focus on creativity and privacy, Snapchat has become especially popular among younger audiences, offering an interactive way to express yourself and stay connected with close circles.",
+    "size": 60,
+    "reviews": 6200000,
+    "ratingAvg": 4.2,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 2400000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "/images/telegram.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "description": "Telegram is a powerful, privacy-focused messaging app known for its speed and versatility. It allows users to send messages, media, and files up to 2GB instantly while supporting massive group chats and public channels with millions of members. Telegram features bots for automation, secret chats with end-to-end encryption, and a cloud-based system that keeps your data synced across all devices. Its clean interface, security-focused design, and frequent feature updates have made Telegram a favorite for both personal and community-based communication worldwide.",
+    "size": 45,
+    "reviews": 5800000,
+    "ratingAvg": 4.4,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 1900000 },
+      { "name": "5 star", "count": 2400000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "/images/pinterest.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "description": "Pinterest is a visual discovery and inspiration platform where millions of users explore and organize ideas for every aspect of life — from recipes and fashion to travel and home decor. By saving 'Pins' to themed boards, users can plan projects, get inspired, and follow creators with similar interests. Pinterest’s smart recommendation engine delivers personalized ideas, making it a go-to tool for creativity, lifestyle planning, and inspiration for both individuals and businesses looking to share their products visually.",
+    "size": 50,
+    "reviews": 4100000,
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1400000 },
+      { "name": "5 star", "count": 1700000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "/images/reddit.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "description": "Reddit is a vast online community platform where millions of users share, discuss, and vote on content across thousands of interest-based communities called subreddits. It’s a place to explore diverse perspectives, from breaking news and deep discussions to humor, memes, and niche hobbies. Reddit’s upvote system surfaces the best contributions, while comment threads create meaningful conversations. Whether you're seeking information, entertainment, or community engagement, Reddit connects people worldwide around shared passions and knowledge.",
+    "size": 60,
+    "reviews": 3200000,
+    "ratingAvg": 4.3,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1100000 },
+      { "name": "5 star", "count": 1250000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "/images/airbnb.png",
+    "title": "Airbnb",
+    "companyName": "Airbnb, Inc.",
+    "description": "Airbnb is a global platform that connects travelers with hosts offering unique stays — from cozy apartments to luxury villas and treehouses. It provides flexible search options, verified reviews, secure payment methods, and 24/7 support to make booking easy and safe. Guests can explore local experiences, while hosts can earn income by sharing their space. Airbnb has transformed travel by enabling authentic, affordable, and memorable stays in over 190 countries worldwide.",
+    "size": 65,
+    "reviews": 2900000,
+    "ratingAvg": 4.6,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 1450000 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "/images/ubereats.png",
+    "title": "Uber Eats",
+    "companyName": "Uber Technologies, Inc.",
+    "description": "Uber Eats is a leading food delivery platform that connects users to their favorite restaurants and local eateries with just a few taps. It offers real-time order tracking, a wide variety of cuisines, and multiple payment options for a seamless ordering experience. Users can schedule deliveries, customize meals, and enjoy contactless delivery options. Whether you're craving fast food or fine dining, Uber Eats brings delicious meals directly to your doorstep, making food delivery quick, reliable, and convenient.",
+    "size": 80,
+    "reviews": 3500000,
+    "ratingAvg": 4.3,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1100000 },
+      { "name": "5 star", "count": 1300000 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "/images/duolingo.png",
+    "title": "Duolingo",
+    "companyName": "Duolingo, Inc.",
+    "description": "Duolingo is a fun, engaging, and gamified language-learning app that helps millions of users master new languages at their own pace. Offering over 30 languages, it uses interactive lessons, daily streaks, leaderboards, and personalized exercises to make learning effective and enjoyable. With short lessons designed to fit into busy schedules, Duolingo builds vocabulary, grammar, and pronunciation skills for beginners and advanced learners alike. Its friendly interface and progress-tracking system keep users motivated every day.",
+    "size": 45,
+    "reviews": 4000000,
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 2350000 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "/images/paypal.png",
+    "title": "PayPal",
+    "companyName": "PayPal Holdings, Inc.",
+    "description": "PayPal is a globally trusted digital payment platform that enables secure money transfers, online purchases, and business transactions. With advanced encryption, buyer protection, and quick checkout options, PayPal simplifies financial interactions for both individuals and businesses. Users can link bank accounts or cards, send money internationally, and track transactions with ease. Its wide acceptance across merchants makes it one of the most reliable ways to pay and get paid online.",
+    "size": 50,
+    "reviews": 2800000,
+    "ratingAvg": 4.2,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 1050000 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "/images/amazon.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "description": "Amazon Shopping offers a complete online retail experience, giving users access to millions of products from electronics and clothing to groceries and daily essentials. With powerful search tools, personalized recommendations, and fast delivery options like Prime, shopping is faster and easier than ever. The app includes order tracking, secure payments, one-click buying, and 24/7 customer support, making it a trusted platform for convenient shopping worldwide.",
+    "size": 90,
+    "reviews": 12000000,
+    "ratingAvg": 4.4,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 5200000 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "/images/googlemaps.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "description": "Google Maps is a comprehensive navigation and location service that helps millions of people explore the world. With real-time GPS navigation, traffic updates, public transit information, and offline maps, it makes traveling easier and more reliable. Users can find nearby businesses, restaurants, and landmarks with detailed reviews and photos. Whether you’re walking, driving, or biking, Google Maps provides accurate routes and smart suggestions, making it an essential tool for everyday navigation and global exploration.",
+    "size": 70,
+    "reviews": 15000000,
+    "ratingAvg": 4.6,
+    "downloads": "10B",
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 7000000 }
+    ]
+  }
+]
