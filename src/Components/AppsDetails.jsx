@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import useApps from '../Hook/useApps';
 import downloadIcon from '../assets/icon-downloads.png'
@@ -6,49 +6,89 @@ import ratingIcon from '../assets/icon-ratings.png'
 import reviewIcon from '../assets/icon-review.png'
 import Container from '../Container/Container';
 import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import AppError from '../ErrorHandle/AppError';
+import { getInstallationApps, installationAppsAddToDB } from '../Utilities/AddToInstallationDB';
+import LoadingSpinner from './LoadingSpinner';
+import { toast } from 'react-toastify';
 
 const AppsDetails = () => {
     const {id} = useParams();
-    const {apps} = useApps();
+    const {apps, loading} = useApps();
+    const [isInstall, setIsInstall] = useState(false);
+
    
-    const findAppDetails = apps.find(app=> app.id === Number(id));
-    const {image, title, companyName, downloads, ratingAvg, reviews, description } = findAppDetails || {};
+    const app = apps.find(app=> app.id === Number(id));
+    const {image, title, companyName, downloads, ratingAvg, reviews, description, size } = app || {};
+
+     useEffect(()=>{
+         if(app){
+            const installedApp = getInstallationApps()
+            const installed = installedApp.some(p=> p.id === app.id)
+            setIsInstall(installed)
+        }
+        
+      },[app])
+
+
+       const handleInstalled = ()=>{
     
-    const ratingsData = findAppDetails?.ratings.map(rating=>({
+    setIsInstall(true)
+    installationAppsAddToDB(app)
+       
+        toast.success(`Yahoo ⚡!! ${app.title} Installed Successfully`);
+       
+       
+   }
+
+    
+    const ratingsData = app?.ratings.map(rating=>({
         
         name: rating.name,
         count: rating.count
     
     }))
+    if(loading){
+        return <LoadingSpinner/>
+    }
 
+    if(!app){
+        return <AppError></AppError>
+    }
+
+     
+
+
+  
 
 
     return (
         <Container>
-            <div className='flex flex-col lg:flex-row items-center gap-6 py-4 md:py-6 lg:py-10'>
-            <img className='w-[350px] h-[350px] object-cover overflow-hidden shadow rounded-sm' src={image} alt="" />
-           <div className='flex-1 space-y-5'>
+            <div className='flex flex-col md:flex-row lg:flex-row items-center gap-6 py-4 md:py-6 lg:py-10'>
+            <img className='w-[350px] h-[350px] object-cover overflow-hidden shadow rounded-sm' src={image} alt={title} />
+           <div className='flex-1 space-y-2 md:space-y-3 lg:space-y-5 text-center lg:text-left'>
              <h2 className='font-bold text-3xl text-[#001931]'>{title}</h2>
             <p className='text-xl text-[#627382]'>Developed by <span className='bg-linear-to-r from-[#632EE3] to-[#9F62F2] font-semibold bg-clip-text text-transparent'>{companyName}</span></p>
             
-            <div className='flex gap-7 border-t-2 border-t-[#632ee380] pt-3'>
-                <div className='space-y-3'>
-                    <img src={downloadIcon} alt="" />
+            <div className='flex flex-wrap md:flex-row lg:flex-row justify-center md:justify-start lg:justify-start gap-3 md:gap-5  lg:gap-7 border-t-2 border-t-[#632ee380] pt-3'>
+                <div className='flex flex-col  items-center  lg:items-start text-center  lg:text-left space-y-2 '>
+                 
+                      <img className='w-8 h-8 object-contain' src={downloadIcon} alt="download-icon" />
+                  
                     <p className='text-[#001931]'>Downloads</p>
-                    <h3 className='font-extrabold text-4xl text-[#001931]'>{downloads}</h3>
+                    <h3 className='font-extrabold text-xl md:text-2xl  lg:text-4xl text-[#001931]'>{downloads}M</h3>
                 </div>
-                <div className='space-y-3'>
-                    <img src={ratingIcon} alt="" />
+                <div className='flex flex-col items-center  lg:items-start text-center lg:text-left space-y-2 '>
+                    <img className='w-8 h-8 object-contain' src={ratingIcon} alt="ratings-icon" />
                     <p className='text-[#001931]'>Average Ratings</p>
-                    <h3 className='font-extrabold text-4xl text-[#001931]'>{ratingAvg}</h3>
+                    <h3 className='font-extrabold text-xl md:text-2xl  lg:text-4xl text-[#001931]'>{ratingAvg}</h3>
                 </div>
-                <div className='space-y-3'>
-                    <img src={reviewIcon} alt="" />
+                <div className='flex flex-col items-center  lg:items-start text-center lg:text-left space-y-2 '>
+                    <img className='w-8 h-8 object-contain' src={reviewIcon} alt="review-icons" />
                     <p className='text-[#001931]'>Total Reviews</p>
-                    <h3 className='font-extrabold text-4xl text-[#001931]'>{reviews}</h3>
+                    <h3 className='font-extrabold text-xl md:text-2xl  lg:text-4xl text-[#001931]'>{reviews}</h3>
                 </div>
             </div>
-            <button className='btn text-xl font-semibold text-white bg-linear-to-r from-[#00d390] to-[#00d3909e] rounded-sm px-5 py-4'>Install Now (291 MB)
+            <button disabled={isInstall} onClick={handleInstalled} className='hover:cursor-pointer text-xl font-semibold text-white bg-linear-to-r from-[#00d390] to-[#00d3909e] rounded-sm px-4 py-3 lg:px-5 lg:py-4'> {isInstall === true ?'Installed' : (`Install Now (${size} MB)`)}
             
             </button>
            </div>

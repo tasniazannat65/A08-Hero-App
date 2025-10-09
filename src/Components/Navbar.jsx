@@ -24,7 +24,7 @@ const Navbar = () => {
     </div>
     <Link to='/' className="flex items-center space-x-2">
         <img className='w-10 h-10' src={logoImg} alt="nav-logo" />
-        <span className='bg-linear-to-r from-[#632EE3] to-[#9F62F2] font-bold bg-clip-text text-transparent text-lg'>HERO.AppBari</span>
+        <span className='bg-linear-to-r from-[#632EE3] to-[#9F62F2] font-extrabold bg-clip-text text-transparent text-lg text-shadow-xs'>HERO.AppBari</span>
     </Link>
   </div>
   <div className="navbar-center hidden lg:flex">

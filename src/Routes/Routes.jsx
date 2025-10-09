@@ -8,6 +8,7 @@ import AppsDetails from "../Components/AppsDetails";
 
 
 
+
 export const router = createBrowserRouter([
     {
         path: '/',
@@ -17,6 +18,7 @@ export const router = createBrowserRouter([
             {
                 index: true,
                 Component: Home
+                
             },
             {
                 path: '/apps',

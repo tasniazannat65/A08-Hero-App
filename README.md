@@ -1,16 +1,35 @@
-# React + Vite
+# HERO.AppBari
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview 
 
-Currently, two official plugins are available:
+**HERO.AppBari** is a modern, responsive React application that allows users to explore, search and manage apps. The project features a **Hero section**, **App Cards**, **App Details page** and smooth navigation. It aims to provide a **user-friendly experience** for exploring and installing apps with interactive elements.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+## Features
 
-## React Compiler
+- **Hero Section**: Eye-catching top section highlighting featured apps or app categories. 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **App Cards**: Show trending and featured apps with **downloads and ratings**.
 
-## Expanding the ESLint configuration
+- **App Details Page**: Display app information, description, charts for ratings and install/un-install functionality.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Install & Uninstall**: Users can install/uninstall apps with **localStorage persistence**.
+
+- **Search Functionality**: Search apps dynamically with **loading spinner feedback**.
+- **Sorting Options**: Sort apps by downloads or size.
+- **Responsive Design**: Fully responsive across mobile, tablet and desktop screens.
+- **Animations & Transitions**: Smooth hover effects, spinner animations and toast notifications.
+- **Notifications**: Success or error feedback using **React Toastify** and **SweetAlert2**.
+
+---
+
+## Tech Stack
+
+- **Frontend**: React.js
+- **Styling**: Tailwind CSS, DaisyUI
+- **State Management**: useState, useEffect
+- **Routing**: React Router
+- **Data Storage**: LocalStorage
+- **Charts**: Recharts
+- **Notifications**: React Toastify / SweetAlert2
+- **JavaScript**: ES6+

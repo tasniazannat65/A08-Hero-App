@@ -4,10 +4,11 @@ import AppStatus from '../Components/AppStatus';
 import Container from '../Container/Container';
 import useApps from '../Hook/useApps';
 import AppCardContainer from '../Components/AppCardContainer';
+import LoadingSpinner from '../Components/LoadingSpinner';
 
 
 const Home = () => {
-    const {apps} = useApps();
+    const {apps, loading} = useApps();
    const featuredApps = apps.slice(0,8);
     return (
         <div>
@@ -16,7 +17,11 @@ const Home = () => {
             </Container>
             
             <AppStatus></AppStatus>
-         <AppCardContainer featuredApps={featuredApps}></AppCardContainer>
+
+            {
+                loading ? (<LoadingSpinner/>) :(<AppCardContainer featuredApps={featuredApps}></AppCardContainer>
+)
+            }
         
         </div>
     );
